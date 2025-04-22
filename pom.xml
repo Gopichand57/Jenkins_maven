@@ -1,0 +1,7 @@
+stage('Build') {
+    steps {
+        dir('your-subfolder') { 
+            sh 'mvn clean install'
+        }
+    }
+}
